@@ -1,7 +1,9 @@
-# sentinel-automation-playbooks
 
-Microsoft Sentinel Logic App playbooks for auto-response and ticketing. Includes Teams notifications.
+# Microsoft Sentinel Automation Playbooks
 
-## Getting started
-- Clone and explore.
-- Use the CI workflows as examples.
+Starter Logic App you can connect to incidents or scheduled alerts.
+
+## Deploy
+```bash
+az deployment group create -g rg-sentinel -f playbooks/notify-teams.json -p logicAppName=la-notify-teams
+```
