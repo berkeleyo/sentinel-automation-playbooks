@@ -1,0 +1,9 @@
+{
+  "description": "Microsoft Sentinel Logic App playbooks for auto-response and ticketing. Includes Teams notifications.",
+  "topics": [
+    "sentinel",
+    "logic-apps",
+    "security-automation"
+  ],
+  "created": "2025-10-15"
+}

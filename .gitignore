@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+.vscode/
+.idea/
+__pycache__/
+*.zip
+bin/
+out/
